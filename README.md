@@ -3,7 +3,7 @@ Contributions welcome.
 
 ## Domain
 ### Strict
-Only allows values you can actually register with a registrar. e.g. the tld must have at least two characters.
+Only allows values you can actually register with a registrar. e.g. the tld must have at least two characters - "a.co".
 
 `/^(?:(?![-])[a-z0-9-]{1,63}(?<![-])\.)+(?:[a-z]{2,63})$/i`
 
