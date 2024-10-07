@@ -18,6 +18,6 @@ Similar to [RFC](#rfc), but also allows a leading ".". e.g. ".example.com".
 `/^[.]?(?:(?![-])[a-z0-9-]{1,63}(?<![-])\.)*(?:[a-z]{1,63})$/i`
 
 ### Strict Cookie-use
-Public suffixes like "com" are not allowed. At minimum, there must be a domain and a tld. e.g. "a.co" is valid.
+Public suffixes like "com" are not allowed. At minimum, there must be a domain and a tld. e.g. "a.a" is valid.
 
 `/^[.]?(?:(?![-])[a-z0-9-]{1,63}(?<![-])\.)+(?:[a-z]{1,63})$/i`
